@@ -796,7 +796,7 @@ function glyphToOps(glyph) {
                 y1: _13 * y + _23 * cmd.y1,
                 x2: _13 * cmd.x + _23 * cmd.x1,
                 y2: _13 * cmd.y + _23 * cmd.y1
-            }
+            };
         }
 
         if (cmd.type === 'M') {
